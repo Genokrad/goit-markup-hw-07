@@ -1,0 +1,27 @@
+/* ФУТЕР */
+
+.footer {
+  padding: 60px 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-bottom: 20px;
+  }
+  
+  &__box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+footer {
+  background-color: var(--gray-block-color);
+}

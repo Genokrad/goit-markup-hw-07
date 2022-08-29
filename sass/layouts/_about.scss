@@ -1,0 +1,33 @@
+/* СЕКЦИЯ ПРЕИМУЩЕСТВА */
+
+.about{
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 47px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__icon-box {
+    background-color: var(--team-block-color);
+    padding: 25px 100px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  &__icon-item {
+    width: 70px;
+    height: 70px;
+  }
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    max-width: 270px;
+  }
+  &__description {
+    line-height: 1.71;
+    max-width: 270px;
+  }
+}
